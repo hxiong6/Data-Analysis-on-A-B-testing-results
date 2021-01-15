@@ -1,6 +1,7 @@
 # Data-Analysis-on-A-B-testing-results
 
-The objective of this project is to analyze the A/B testing result from an ecommerce website new UI experiment 
+The objective of this project is to analyze the A/B testing result from an ecommerce website new UI experiment: **does the new UI design lead to a better conversion rate?**
+
 (Diaclaimer: this is a school project based on  simulated data set)
 
 - Performed exploratory data analysis (EDA) for preliminary data quality check 
