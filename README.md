@@ -15,8 +15,8 @@ The objective of this project is to analyze the A/B testing result from an ecomm
 
 1) examine if the randomization is done right for the two 'problematic' states;
 
-2) if no, then we can try rebalancing the data with adjustments or propensity score matching, and re-do the t-test on balanced data for NC/IN.
+2) if no, then we can try **rebalancing** the data with adjustments or propensity score matching, and re-do the t-test on balanced data for NC/IN.
 
-3) We don't have treatment data for PA, and PA is the one of the key states in our customer base. We need to re-do the experiment in a correct way for PA.
+3) We don't have treatment data for PA, and PA is the one of the key states (highest conversion rate in the test group) in our customer base. We need to re-do the experiment in a correct way for PA.
 
-4) based on the welch's t test result, there exixt no significant difference b/w the new and old UI in terms of conversion rate (group by state), we can therefore make business decision based on other considerations, i.e., cost of replacement, code base maintenance, long-term consideration such as acquisition, branding.
+4) based on the welch's t test result, **there exixts no significant difference b/w the new and old UI in terms of conversion rate (group by state)**, we can therefore make business decision based on other considerations, i.e., cost of replacement, code base maintenance, long-term consideration such as acquisition, branding.
